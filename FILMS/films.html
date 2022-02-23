@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+  <title>Films</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+<body>
+  <h1>Categories</h1>
+  <img src="GENRES1.jpg"align="right" width="800" height="400" alt="">
+  <h3>
+  <strong>
+  <div class="films">
+  <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">The most popular:</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="navbar-item"><a class="nav-link" href="DRAMA/drama.html">Drama</a></li>
+      <br>
+        <li class="navbar-item"><a class="nav-link" href="ACTION/action.html">Action</a></li>
+      <br>
+        <li class="navbar-item"><a class="nav-link" href="COMEDY/comedy.html">Comedy</a></li>
+      <br>
+        <li class="navbar-item"><a class="nav-link" href="HORROR/horror.html">Horror</a></li>
+      <br>
+        <li class="navbar-item"><a class="nav-link" href="THRILLER/thriller.html">Thriller</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  </strong>
+  </h3>
+  <br>
+  <h1>FILM TRENDS:</h1>
+
+<p id="trend"></p>
+  <script>
+// Create an object:
+const movie = {
+  filmName: "Spiderman",
+  year: 2022,
+
+};
+
+// Display some data from the object:
+document.getElementById("trend").innerHTML =
+movie.filmName + "(" + movie.year + ")" + " movie is trending this month!";
+</script>
+</center>
+</body>
+</html>
